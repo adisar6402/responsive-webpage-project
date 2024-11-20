@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Telemedicine Solutions</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <img src="logo.png" alt="Logo" class="logo">
+            <h1>Telemedicine Solutions</h1>
+        </div>
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <button class="nav-toggle">Menu</button>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <section id="home">
+            <h2>Welcome to Our Telemedicine Platform</h2>
+            <div class="services">
+                <div class="service-item">
+                    <img src="ai-powered-diagnostics.jpg" alt="AI-Powered Diagnostics">
+                    <h3>AI-Powered Diagnostics</h3>
+                    <p>Revolutionizing diagnostics with AI for precise and efficient patient care.</p>
+                </div>
+                <div class="service-item">
+                    <img src="virtual-consultation.jpg" alt="Virtual Consultation">
+                    <h3>Virtual Consultation</h3>
+                    <p>Consult with experts online, anytime, for accurate healthcare advice.</p>
+                </div>
+                <div class="service-item">
+                    <img src="data-analysis-healthcare.jpg" alt="Data Analysis in Healthcare">
+                    <h3>Data Analysis in Healthcare</h3>
+                    <p>Unlocking insights from microbiological data to enhance research and diagnostics.</p>
+                </div>
+                <div class="service-item">
+                    <img src="custom-ai-solutions.jpg" alt="Custom AI Solutions">
+                    <h3>Custom AI Solutions</h3>
+                    <p>Tailored AI systems to optimize diagnostic workflows for healthcare providers.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <h2>Quick Links</h2>
+            <ul>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </aside>
+    </main>
+
+    <!-- About Me Section -->
+    <section id="about">
+        <h2>About Faith Ayantunde</h2>
+        <img src="profile.jpg" alt="Faith Ayantunde">
+        <p>As an aspiring AI developer and data scientist, I’m passionate about leveraging AI and data science to revolutionize diagnostics and improve patient care. My goal is to merge my scientific expertise with technology to create innovative healthcare solutions.</p>
+        <p>Based in Ibadan, I’m committed to continuous learning and actively involved in hands-on AI projects centered on healthcare and data analysis.</p>
+        <p>Check out my <a href="https://aboutolayinka.my.canva.site/olayinka-portfolio-webpage" target="_blank">portfolio</a> to learn more about my work.</p>
+    </section>
+
+    <!-- Feedback Section -->
+    <section id="feedback">
+        <h2>Feedback</h2>
+        <div class="feedback-forms">
+            <!-- UI/UX Feedback -->
+            <form id="uiuxFeedbackForm" action="https://js-form-data-capture.netlify.app/.netlify/functions/formHandler" method="POST">
+                <h3>UI/UX Feedback</h3>
+                <label for="ui-name">Name:</label>
+                <input type="text" id="ui-name" name="name" required>
+                <label for="ui-email">Email:</label>
+                <input type="email" id="ui-email" name="email" required>
+                <label for="ui-feedback">Your Feedback:</label>
+                <textarea id="ui-feedback" name="feedback" rows="4" required></textarea>
+                <button type="submit">Submit</button>
+            </form>
+
+            <!-- General Feedback -->
+            <form id="generalFeedbackForm" action="https://js-form-data-capture.netlify.app/.netlify/functions/formHandler" method="POST">
+                <h3>General Feedback</h3>
+                <label for="general-name">Name:</label>
+                <input type="text" id="general-name" name="name" required>
+                <label for="general-email">Email:</label>
+                <input type="email" id="general-email" name="email" required>
+                <label for="general-feedback">Your Feedback:</label>
+                <textarea id="general-feedback" name="feedback" rows="4" required></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Telemedicine Solutions. All Rights Reserved.</p>
+        <ul class="social-media">
+            <li><a href="https://x.com/tripsbaby" target="_blank"><i class="fab fa-twitter"></i> Twitter</a></li>
+            <li><a href="https://www.linkedin.com/in/olayinka-ayantunde-14a142244" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
+            <li><a href="https://www.instagram.com/tripsbaby_/" target="_blank"><i class="fab fa-instagram"></i> Instagram</a></li>
+        </ul>
+        <div class="footer-links">
+            <a href="#privacy-policy" target="_blank">Privacy Policy</a> | 
+            <a href="#terms-conditions" target="_blank">Terms & Conditions</a>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
